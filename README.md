@@ -17,11 +17,11 @@ We are asked, on this work, to do an analysis to the data of [Argentina bringed 
 On this README we are doing a general overview of what we worked all along but for a more detailed description of what we worked, we recommend to watch the [Documentation](https://github.com/pablorobba/Data_Analyst_Telecomunication_proyect/blob/main/Documentation.md).
 
 
-## ETL
+## Data load
 
-The ETL was short, since data was mostly processed, but with a big problem: since the data was processed, some of the tables had their numbers rounded and with units that were not clear (You can see this very clear [on this dataset](https://datosabiertos.enacom.gob.ar/dataviews/240976/total-nacional-de-accesos-a-internet-fijo-por-banda-ancha-y-banda-angosta/) were some units are in millions and others in thousands, so the sum of thems, on first sight, dont makes sense) and we realized this on the EDA. To solve this, we accessed the source datasets in the ENACOM's API. There, the units were not rounded and this allowed us to do a more quality analysis. 
+The data load process was short, since data was mostly processed, but with a big problem: since the data was processed, some of the tables had their numbers rounded and with units that were not clear (You can see this very clear [on this dataset](https://datosabiertos.enacom.gob.ar/dataviews/240976/total-nacional-de-accesos-a-internet-fijo-por-banda-ancha-y-banda-angosta/) were some units are in millions and others in thousands, so the sum of thems, on first sight, dont makes sense) and we realized this on the EDA. To solve this, we accessed the source datasets in the ENACOM's API. There, the units were not rounded and this allowed us to do a more quality analysis. 
 
-[ETL notebook](https://github.com/pablorobba/Data_Analyst_Telecomunication_proyect/blob/main/1%20-%20ETL.ipynb)
+[Data load notebook](https://github.com/pablorobba/Data_Analyst_Telecomunication_proyect/blob/main/1%20-%20Data_load.ipynb)
 
 
 ## EDA
