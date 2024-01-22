@@ -33,11 +33,39 @@ Besides that, at first sight CABA and Buenos Aires seemed to be the most develop
 
 ## Analysis 
 
-We made the first KPI following the instructions given (We have to use a scrip to made the graphic on the PowerBI, can be found [here](https://github.com/pablorobba/Data_Analyst_Telecomunication_proyect/blob/main/script_powerbi.py)). It's one which evaluates the performance on the number of access to internet. The goal was to upgrade 2% the access. If we took the 2022 year (the last one on the datasets) and took the 3er quarter compared to the second one (we took the third because we are sure that this has the complete data, the last quarter we dont know) the goal of 2 % was reached but by a slight margin (tiny one, very tiny). We can't say it's success, but it's not a failure either. Something to be showcased it's that this goal was achieved by similar ranges on most of the provinces, the access it's somewhat being garated in equal mounts.
+We made the first KPI following the instructions given (We have to use a scrip to made the graphic on the PowerBI, can be found [here](https://github.com/pablorobba/Data_Analyst_Telecomunication_proyect/blob/main/script_powerbi.py)). It's one which evaluates the performance on the number of access to internet. The goal was to upgrade 2% the access:
 
-A big problem we see, on the other hand, it's that the internet speed in argentina has good metrics on Buenos Aires and CABA but not so in other provinces. We decided to make a KPI and took as an objetive 50 mbps speed, we look this tendency by year, we decided to look it by province and the goal is reached, as you can imagine, on the capital, with a big margin, but the average it's in 45 mbps (9% away from the goal), and in some provinces (Tierra del Fuego, Santa Cruz, San Juan) the conections are on the 10-20 mbps, very far from the 50 mbps. To do a better performance is suggested to work in the places with less access to a high speed conection, we recommend to upgrade to optic fiber, since all this places coincide to have less access to optic fiber conections and give them access to broadband (the places with less access to broadband are the same to have lower speed and some of them are on the top 10 places with more dial up users).
+<img src ="img-readme\read\KPI.png">
 
-We want to say, as a conclution, that we have reasons to be optimistic, since the number of dial up users are lowering, on the contrary to broadband users. The conection is getting faster and the proportion of new access to the internet service is somewhere equal all long the country. The main problem to focus is the internet speed, and the solution is by upgrading the technology involved on the service and the conection. A more conected, faster, advanced, but above all, equal country is posible.
+If we took the 2022 year (the last one on the datasets) and took the 3er quarter compared to the second one (we took the third because we are sure that this has the complete data, the last quarter we dont know) the goal of 2 % was reached but by a slight margin (tiny one, very tiny). We can't say it's success, but it's not a failure either. Something to be showcased it's that this goal was achieved by similar ranges on most of the provinces, the access it's somewhat being garated in equal mounts.
+
+A big problem we see, on the other hand, it's that the internet speed in argentina has good metrics on Buenos Aires and CABA but not so in other provinces. We decided to make a KPI and took as an objetive 50 mbps speed, we look this tendency by year:
+
+<img src ="img-readme\read\KPI2.png">
+
+We decided to look it by province and the goal is reached, as you can imagine, on the capital, with a big margin, but the average it's in 45 mbps (9% away from the goal), and in some provinces (Tierra del Fuego, Santa Cruz, San Juan) the conections are on the 10-20 mbps, very far from the 50 mbps:
+
+<img src ="img-readme\read\provincies.png">
+
+This, moving on to the next graph, clearly has to do with broadband access; it is not a coincidence that the provinces with less broadband access are also the ones with lower speed, and vice versa:
+
+<img src ="img-readme\read\provincies2.png">
+
+And, of course, this has a material cause, as Aristotle would say, in technology: the provinces with less access to fiber optics are the ones with slower internet:
+
+<img src ="img-readme\read\provincies3.png">
+
+To do a better performance is suggested to work in the places with less access to a high speed conection, we recommend to upgrade to optic fiber, since all this places coincide to have less access to optic fiber conections and give them access to broadband (the places with less access to broadband are the same to have lower speed and some of them are on the top 10 places with more dial up users).
+
+We want to say, as a conclution, that we have reasons to be optimistic, since the number of dial up users are lowering, on the contrary to broadband users:
+
+<img src ="img-readme\read\DUBA.png">
+
+The conection is getting faster and the proportion of new access to the internet service is somewhere equal all long the country:
+
+<img src ="img-readme\read\map.png"> <img src ="img-readme\read\speed.png"> 
+
+The main problem to focus is the internet speed, and the solution is by upgrading the technology involved on the service and the conection. A more conected, faster, advanced, but above all, equal country is posible.
 
 
 <p align='center'>
